@@ -1,0 +1,52 @@
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 999;
+    /* Add z-index to ensure the header stays on top */
+}
+
+.fixed-header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-header a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.fixed-header a:hover {
+    text-decoration: underline;
+}
+
+.custom-link {
+    color: white !important;
+    /* Initial color */
+}
+
+.custom-link.active {
+    color: greenyellow !important;
+    /* Color after click */
+}
+
+.customBrown-link {
+    color: white !important;
+    /* Initial color */
+}
+
+.customBrown-link.active {
+    color: burlywood !important;
+    /* Color after click */
+}
+
